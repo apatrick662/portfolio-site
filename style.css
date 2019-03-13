@@ -1,0 +1,17 @@
+html{
+    font-size: 16px;
+    background-color: #eceef1;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#navbar ul {
+	list-style-type: none;
+}
+
+#navbar li {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
