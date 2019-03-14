@@ -1,17 +1,79 @@
+/* S */
+
+/* OVERALL */
+
 html{
     font-size: 16px;
     background-color: #eceef1;
     font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* NAVBAR */
+
+.current_page_item {
+    background: linear-gradient(#003300, #1f7a1f);
+}
+
+#navbar-wrapper {
+    margin: 0;
+}
+
+#navbar {
+    background: linear-gradient(#2eb82e, #1f7a1f);
+    height: 60px;
+    text-align: center;
+    margin-top: 15px;
+}
+
 #navbar ul {
-	list-style-type: none;
+    list-style-type: none;
+    line-height: normal;
+    margin: 0px;
+    padding-top: 20px;
 }
 
 #navbar li {
-	display: inline;
+    display: inline;
+    padding: 20px;
 }
 
-a {
-	text-decoration: none;
+#navbar a{
+    color: white;
+}
+
+/* IMAGE CONTAINER */
+
+#image-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.image {
+    width: 25%;
+    height: 300px;
+}
+
+#img1{
+    background-color: aquamarine;
+}
+
+#img2{
+    background-color: purple;
+}
+
+#img3{
+    background-color: firebrick;
+}
+
+#img4{
+    background-color: yellowgreen;
 }
