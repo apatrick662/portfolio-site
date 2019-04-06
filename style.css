@@ -91,10 +91,11 @@ h2 {
     padding: 10px;
     margin-right: 4em;
     color: white;
+    border-radius: 10px;
 }
 
 .description {
-    
+
 }
 
 /*WRAPPERS FOR PARAGRAPHS */
@@ -105,4 +106,13 @@ h2 {
 
 #contact-wrapper {
     margin-left: 12.5%;
+}
+
+/* CONTACT */
+
+#contactLinks {
+    margin: 0;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
