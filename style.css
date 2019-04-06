@@ -1,6 +1,8 @@
-/* S */
-
 /* OVERALL */
+
+/* * {
+    border: solid 1px red;
+} */
 
 html{
     font-size: 16px;
@@ -57,41 +59,45 @@ h2 {
     color: white;
 }
 
-/* IMAGE CONTAINER */
+/* BODY OF SITE */
 
-.grid-container {
+#body-wrapper {
+    margin: 0;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.body-entry {
+    height: 10%;
+    padding-bottom: 10px;
+}
+
+.body-entry ul {
+    list-style-type: none;
+    line-height: normal;
+    margin: 0px;
     display: flex;
-    width: 80%;
-    margin: auto;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.body-entry li {
+    display: inline;
+}
+
+.link-button {
+    background: linear-gradient(#003300, #1f7a1f); 
+    padding: 10px;
+    margin-right: 4em;
+    color: white;
 }
 
 .description {
-    width: 25%;
-    height: 300px;
+    
 }
 
-.block {
-    width: 25%;
-    height: 300px;
-}
-
-#img1{
-    background-color: aquamarine;
-}
-
-#img2{
-    background-color: purple;
-}
-
-#img3{
-    background-color: firebrick;
-}
-
-#img4{
-    background-color: yellowgreen;
-}
-
-/* ABOUT ME WRAPPER */
+/*WRAPPERS FOR PARAGRAPHS */
 
 #about-me-wrapper {
     margin-left: 12.5%;
