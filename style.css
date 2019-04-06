@@ -4,7 +4,7 @@
 
 html{
     font-size: 16px;
-    background-color: #eceef1;
+    background-color: #efe6ce;
     font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -21,6 +21,10 @@ h2 {
 }
 
 /* NAVBAR */
+
+.nav:hover {
+    background: linear-gradient(#003300, #1f7a1f);
+}
 
 .current_page_item {
     background: linear-gradient(#003300, #1f7a1f);
@@ -90,5 +94,9 @@ h2 {
 /* ABOUT ME WRAPPER */
 
 #about-me-wrapper {
+    margin-left: 12.5%;
+}
+
+#contact-wrapper {
     margin-left: 12.5%;
 }
