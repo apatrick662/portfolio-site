@@ -88,6 +88,15 @@ h2 {
     margin: 0px;
 }
 
+#left-box{
+    margin-left: 0;
+}
+
+#right-box{
+    margin-right: 0;
+}
+
+
 #body-wrapper {
     margin: 0;
     width: 60%;
