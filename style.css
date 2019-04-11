@@ -20,6 +20,7 @@ a {
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 h2 {
@@ -68,17 +69,17 @@ h2 {
 #body-wrapper {
     margin: 0;
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: auto;
     padding-left: 20px;
-    padding-right:
 }
 
 .body-entry {
     height: 150px;
-    background-color: #e5c385;
+    background: linear-gradient(#e5c385, #f7d699);
     border: solid 2px black;
     box-shadow: 5px 10px 10px #333333;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -100,7 +101,7 @@ h2 {
     padding: 15px;
     margin-right: 4em;
     color: white;
-    width: 190px;
+    width: 175px;
     text-align: center;
 }
 
@@ -124,12 +125,11 @@ h2 {
 }
 
 #contact-wrapper {
-    margin-left: 12.5%;
     margin: 0;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
-    background-color: #e5c385;
+    background: linear-gradient(#e5c385, #f7d699);
     padding: 2em;
     border: solid 2px black;
     box-shadow: 5px 10px 10px #333333;
