@@ -66,6 +66,28 @@ h2 {
 
 /* BODY OF SITE */
 
+.side-by-side-wrapper {
+    display: flex;
+    justify-content: center;    
+}
+
+.side-box {
+    background: linear-gradient(#e5c385, #f7d699);
+    border: solid 2px black;
+    box-shadow: 5px 10px 10px #333333;
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.side-by-side-wrapper ul {
+    list-style-type: none;
+    line-height: normal;
+    margin: 0px;
+}
+
 #body-wrapper {
     margin: 0;
     width: 60%;
@@ -107,12 +129,6 @@ h2 {
 }
 
 #input {
-    margin-left: 12.5%;
-}
-
-/*WRAPPERS FOR PARAGRAPHS */
-
-#about-me-wrapper {
     margin-left: 12.5%;
 }
 
