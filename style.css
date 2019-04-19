@@ -27,6 +27,33 @@ h2 {
     text-align: center;
 }
 
+/* billboard */
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#billboard {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#billboard ul {
+    display: flex;
+    list-style-type: none;
+    line-height: normal;
+    align-items: center;
+}
+
+#billboard li {
+    display: inline;
+    padding-right: 2em;
+}
+
 /* NAVBAR */
 
 .body-box {
